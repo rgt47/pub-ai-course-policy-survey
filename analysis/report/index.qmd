@@ -70,7 +70,7 @@ presented as settled.
 ## Motivations
 
 - Course AI policies written in 2023 or 2024 are already stale.
-  Instructors need a current cross-section of what peer programmes
+  Instructors need a current cross-section of what peer programs
   are actually doing, not a folk sense of it.
 - 'Permitted with citation' is the most common policy, but it hides
   real variation: some courses pair it with institutional guardrails
@@ -79,7 +79,7 @@ presented as settled.
 - The 'why learn computing when AI can code' question is unavoidable
   in class, and having five distinct, named arguments (validation,
   accountability, judgment, debugging, amplification) ready is more
-  useful than one vague appeal to rigour.
+  useful than one vague appeal to rigor.
 - The tooling itself has moved on since most published course
   policies were written. Autocomplete-style suggestions and agentic,
   multi-step coding tools raise different pedagogical questions, and
@@ -95,7 +95,7 @@ presented as settled.
 2. Contrast two curricular models for treating AI as course content:
    Johns Hopkins' 'professional infrastructure' approach and a newer
    USC model built around prompting rather than writing code.
-3. Catalogue the recurring pedagogical metaphors (pair programmer,
+3. Catalog the recurring pedagogical metaphors (pair programmer,
    Bloom's taxonomy, driver versus passenger, scaffolded integration)
    and extend them to the 2026 distinction between autocomplete-style
    assistance and agentic coding.
@@ -224,7 +224,7 @@ The eight courses above were not chosen because they are the only
 biostatistics computing courses with a public AI policy; they were
 chosen because they are the only ones a systematic search turned up
 with one. A subsequent sweep of roughly twenty additional graduate
-biostatistics programmes, including Harvard, UCLA, the University of
+biostatistics programs, including Harvard, UCLA, the University of
 Pennsylvania, the University of Washington, Yale, Minnesota, Emory,
 Vanderbilt, Duke, Boston University, Pittsburgh, Iowa, Rutgers,
 Wisconsin, Colorado, Ohio State, USC, Brown, UAB, and MUSC, found no
@@ -243,10 +243,10 @@ verified negatives, not merely absences of evidence:
   contains no generative-AI policy language.
   <https://ucla-biostat-203b.github.io/2023winter/syllabus/syllabus.html>
 
-Where a programme-level statement exists at all, it is typically an
+Where a program-level statement exists at all, it is typically an
 institutional policy that defers the actual decision to individual
 instructors rather than a course-specific rule, for example the
-University of Washington's centre-level guidance page (accessed
+University of Washington's center-level guidance page (accessed
 August 2026), which states explicitly that the university has no
 single policy and that each instructor sets their own.
 <https://teaching.washington.edu/course-design/ai/ai-course-policies/>
@@ -263,7 +263,7 @@ The practical implication is that CMU 36-750's explicit ban and UNC
 BIOS 735's guardrails are not one data point among many similarly
 documented peer policies; they are two of a very small number of
 biostatistics computing courses anywhere with a publicly checkable,
-course-specific generative-AI policy at all. Most programmes, so far
+course-specific generative-AI policy at all. Most programs, so far
 as this search could determine, have simply not published one.
 
 # Two Curricular Models
@@ -359,7 +359,7 @@ adopted informally at JHU and Berkeley.
 Understand, Apply): recalling syntax, explaining concepts, applying
 standard methods. The higher levels (Analyze, Evaluate, Create) remain
 firmly in the human domain. The tension is that if students never
-practise the lower-level tasks themselves, they may lack the
+practice the lower-level tasks themselves, they may lack the
 foundation needed for the higher-level work AI cannot do. This tension
 is unresolved in the literature.
 
@@ -404,7 +404,7 @@ sixth specific to agentic tools.
 - **Over-reliance and deskilling.** Students who rely heavily on AI
   may fail to develop 'computational intuition,' the ability to
   anticipate what an algorithm will do, estimate how long it should
-  take, or recognise implausible output. This mirrors documented risks
+  take, or recognize implausible output. This mirrors documented risks
   of premature calculator reliance in mathematics education.
 - **Inability to debug AI-generated code.** Such code often works in
   the common case but fails at small samples, near-collinearity,
@@ -425,7 +425,7 @@ sixth specific to agentic tools.
 - **Hallucinated statistical methods.** AI tools can generate code for
   methods that do not exist, or that combine real methods incorrectly:
   confidence intervals that mix parametric and nonparametric logic
-  invalidly, optimisation routines with fabricated convergence
+  invalidly, optimization routines with fabricated convergence
   criteria, test statistics with the wrong reference distribution,
   simulation designs with silently broken variance reduction. These
   look reasonable and can pass superficial review; only deep
@@ -467,18 +467,18 @@ critically evaluate the generated code for missing common random
 numbers, missing Monte Carlo standard errors, or inappropriate sample
 sizes, and correct it.
 
-**Emphasise regulatory accountability as a central theme, not one
+**Emphasize regulatory accountability as a central theme, not one
 argument among several.** Invoke the FDA explicitly: a reviewer may
 ask a graduate to justify any analytical decision, and 'the AI
 suggested it' is not an acceptable answer. Connect explicitly to ICH
 E9 and the estimand framework, and draw examples from the clinical
 trial context: interim analysis boundaries, missing-data handling in
-randomised trials, and survival-analysis assumptions.
+randomized trials, and survival-analysis assumptions.
 
 **Prepare students to be AI-skilled professionals.** JHU's mandatory
 Copilot Pro is too aggressive for PHB 228's current context, but the
 underlying insight, that graduates without AI-assisted coding skills
-will be at a professional disadvantage, is correct. Normalise AI use
+will be at a professional disadvantage, is correct. Normalize AI use
 in live-coding demonstrations, narrating the evaluation process
 explicitly, and frame AI proficiency as a career asset alongside R
 programming and reproducible workflows.
@@ -540,7 +540,7 @@ transformative.
    has no informal practice; it means whatever practice exists is not
    published.
 
-# Lessons Learnt
+# Lessons Learned
 
 **Conceptual understanding:**
 
@@ -550,10 +550,10 @@ transformative.
   guardrail.
 - Five named arguments (validation, accountability, judgment,
   debugging, amplification) are more durable in classroom discussion
-  than one generic appeal to academic rigour.
+  than one generic appeal to academic rigor.
 - The JHU and USC models are not competing answers to the same
   question; they answer different questions, depending on whether a
-  programme's graduates will write code themselves or direct others
+  program's graduates will write code themselves or direct others
   who do.
 
 **Technical and process skills:**
@@ -592,14 +592,14 @@ transformative.
   located for any of them, so they are not included as verified
   sources.
 - A subsequent, broader sweep of roughly twenty additional graduate
-  biostatistics programmes (Harvard, UCLA, University of
+  biostatistics programs (Harvard, UCLA, University of
   Pennsylvania, University of Washington, Yale, Minnesota, Emory,
   Vanderbilt, Duke, Boston University, Pittsburgh, Iowa, Rutgers,
   Wisconsin, Colorado, Ohio State, USC, Brown, UAB, MUSC) found no
   additional course-specific policy that could be confirmed against
   an actual syllabus. Two courses, Harvard Biostatistics 776 and UCLA
   Biostat 203B, were directly fetched and confirmed to contain none.
-  This does not establish that no other programme has a policy, only
+  This does not establish that no other program has a policy, only
   that none was found publicly.
 - One lead, a University of Pennsylvania course (BSTA6700) whose
   syllabus PDF resisted text extraction, is deliberately not cited:
@@ -615,7 +615,7 @@ transformative.
 
 1. Confirm the CMU 36-350, Berkeley STAT 243, Michigan BIOSTAT 615, and
    UIUC STAT 428 policy descriptions against a current public syllabus,
-   rather than carrying forward the early-2025 characterisation.
+   rather than carrying forward the early-2025 characterization.
 2. Check whether JHU 140.776's Copilot Pro requirement persisted past
    the 2024 offering, ideally by contacting the department directly
    rather than relying on search results alone.
