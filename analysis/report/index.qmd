@@ -52,9 +52,9 @@ Graduate-level statistical computing courses have adopted strikingly
 different stances toward generative AI, from outright bans on
 assignment code to a required subscription to a paid coding
 assistant. This post surveys that landscape across six peer courses
-(Carnegie Mellon, Johns Hopkins, UC Berkeley, UNC, Michigan, UIUC),
+(Carnegie Mellon, Johns Hopkins, UC Berkeley, UNC, Michigan, UIUC), and
 compares two contrasting curricular models for teaching AI as content
-rather than merely permitting it, and works through the recurring
+rather than merely permitting it. It then works through the recurring
 arguments for why computing should still be taught when a language
 model can generate plausible statistical code. It closes with
 recommendations for PHB 228 (Statistical Computing, UCSD), the course
@@ -153,10 +153,10 @@ consultation).
 
 **UC Berkeley STAT 243**, taught by Chris Paciorek, permitted AI use
 as of the 2023-2024 offering (not re-verified against a current
-syllabus in the August 2026 pass) but required students to document
+syllabus in the August 2026 pass). Students were required to document
 which tools were used, what prompts were given, and how the output
-was modified, while holding students fully responsible for the
-correctness of submitted work regardless of its provenance.
+was modified, while remaining fully responsible for the correctness
+of submitted work regardless of its provenance.
 
 **UNC BIOS 735**, taught by Naim Rashid, turns out to require more
 structure than a simple citation rule. Its syllabus, accessed August
@@ -170,9 +170,9 @@ guardrails' than plain permitted-with-citation.
 **UIUC STAT 428** (as reported in the original early-2025 review; not
 re-verified against a current syllabus in the August 2026 pass)
 permits AI tools as part of the broader ecosystem of computational
-resources available to students, reflecting a pragmatic view that AI
-is already part of the professional computing environment graduates
-will enter.
+resources available to students. This reflects a pragmatic view that
+AI is already part of the professional computing environment
+graduates will enter.
 
 ## Encouraged or Required
 
@@ -245,10 +245,10 @@ verified negatives, not merely absences of evidence:
 
 Where a program-level statement exists at all, it is typically an
 institutional policy that defers the actual decision to individual
-instructors rather than a course-specific rule, for example the
-University of Washington's center-level guidance page (accessed
-August 2026), which states explicitly that the university has no
-single policy and that each instructor sets their own.
+instructors, rather than a course-specific rule. The University of
+Washington's center-level guidance page (accessed August 2026) is one
+example: it states explicitly that the university has no single
+policy and that each instructor sets their own.
 <https://teaching.washington.edu/course-design/ai/ai-course-policies/>
 
 One additional lead, a University of Pennsylvania course (BSTA6700)
@@ -341,7 +341,7 @@ The *Journal of Statistics and Data Science Education* maintains a
 standing article collection, 'Generative AI in Statistics and Data
 Science Education' (established June 2025, edited by Juana Sanchez),
 that has published on exactly this shift from code production to code
-evaluation; Bien and Mukherjee (2025), discussed above, is one entry
+evaluation. Bien and Mukherjee (2025), discussed above, is one entry
 in that collection.
 
 # Pedagogical Framings
@@ -485,7 +485,7 @@ programming and reproducible workflows.
 
 **Monitor peer institutions and professional guidance.** CMU 36-750
 and UNC BIOS 735 now publish specific, restrictive AI-policy language
-directly in their syllabi and are worth watching as models; JHU
+directly in their syllabi and are worth watching as models. JHU
 140.776 and Berkeley STAT 243 are also likely to keep evolving, though
 their most recent public policy language could not be confirmed in
 this pass. The *JSDSE* article collection on generative AI in
@@ -536,8 +536,8 @@ transformative.
 7. **Absence of a published policy is not evidence the course ignores
    AI.** Harvard's Biostatistics 776 and UCLA's Biostat 203B were
    directly fetched and confirmed to contain no AI-policy language,
-   which is itself informative, but it does not mean either instructor
-   has no informal practice; it means whatever practice exists is not
+   which is itself informative. That does not mean either instructor
+   has no informal practice. It means whatever practice exists is not
    published.
 
 # Lessons Learned
