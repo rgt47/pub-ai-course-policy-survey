@@ -6,7 +6,7 @@ categories: [teaching, ai-policy, statistical-computing, higher-education, phb22
 description: "A review of how peer graduate biostatistics and statistical computing courses handle generative AI, from outright bans to required use, followed by a policy proposal for PHB 228 at UCSD."
 image: "media/images/hero.jpg"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   warning: false
