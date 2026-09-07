@@ -12,7 +12,7 @@ execute:
   warning: false
   message: false
 cluster: publishing
-cluster-order: 6
+cluster-order: 7
 ---
 
 <!-- ============================================================================
@@ -37,7 +37,7 @@ SOURCE
   translation of that report into blog format. Content has been
   reorganised and shortened for narrative flow; no policy claims have
   been added beyond the source report, and the source report's
-  epistemic caveats (which peer-course claims are independently
+  confidence caveats (which peer-course claims are independently
   verified against a current public syllabus, versus carried forward
   from an early-2025 review) are preserved rather than smoothed over.
 ============================================================================ -->
@@ -744,7 +744,7 @@ PRE-PUBLISH QA CHECKLIST — verify each item BEFORE setting draft: false
     [x] Single quotes preferred over double quotes in prose
     [x] Direct-abstract opening (reference style, no fabricated personal
         narrative not grounded in the source document)
-    [x] Epistemic caveats preserved (verified vs. unverified peer-course
+    [x] Confidence caveats preserved (verified vs. unverified peer-course
         claims), not smoothed into uniform confidence
 
 [ ] Cross-references
@@ -770,6 +770,7 @@ Recommended reading order:
 1. [Multi-Language Quarto Documents on macOS](../pub-multi-language-quarto/)
 2. [Rapid Conversion of Draft R Scripts to Formal Rmd](../pub-r-script-to-rmd/)
 3. [Building a Statistical Computing Textbook](../pub-statistical-computing-textbook/)
-4. [Producing R Coding Videos: OBS Screencasts and Narrated Slide Decks](../pub-obs-r-screencasts/)
+4. [What Makes an Open Textbook Work: A Guidebook for New Authors](../pub-open-textbook-guidebook/)
 5. [Hosting a Quarto Book Series on Netlify](../pub-hosting-quarto-books-netlify/)
-6. **Generative AI Policies in Graduate Statistical Computing Courses** (this post)
+6. [Producing R Coding Videos: OBS Screencasts and Narrated Slide Decks](../pub-obs-r-screencasts/)
+7. **Generative AI Policies in Graduate Statistical Computing Courses** (this post)
